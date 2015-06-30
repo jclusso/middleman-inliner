@@ -6,6 +6,7 @@ class Inliner < Middleman::Extension
 
     app.compass_config do |config|
       config.output_style = :expanded
+      config.line_comments = false
     end
   end
 
