@@ -5,7 +5,7 @@ class Inliner < Middleman::Extension
     super
 
     app.compass_config do |config|
-      config.output_style = :compressed
+      config.output_style = :expanded
     end
   end
 
